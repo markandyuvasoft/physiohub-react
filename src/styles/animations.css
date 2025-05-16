@@ -1,0 +1,15 @@
+@keyframes moveBar {
+    0% {
+        bottom: 0;
+    }
+    50% {
+        bottom: 100%;
+    }
+    100% {
+        bottom: 0;
+    }
+}
+
+.animate-bar {
+    animation: moveBar 2s infinite ease-in-out;
+}

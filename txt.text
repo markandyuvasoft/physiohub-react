@@ -1,0 +1,91 @@
+STUDENT DASHBOARD
+
+// import React from 'react'
+// import logo from "../../assets/logo-on-light.png"
+// import dash1 from "../../assets/dash1.png"
+// import dash2 from "../../assets/dash2.png"
+// import dash3 from "../../assets/dash3.png"
+// import dash4 from "../../assets/dash4.png"
+// import dash5 from "../../assets/dash5.png"
+// import dash6 from "../../assets/dash6.png"
+// import userimg1 from "../../assets/userimg1.jpg"
+// import { Link, Outlet } from 'react-router-dom'
+
+
+
+
+
+// const StudentDashboard = () => {
+
+//     return (
+//         <div>
+
+//             <div className=' w-full flex'>
+
+//                 <div className=' w-[17%] shadow-xl h-full pb-6'>
+
+//                     <img className='w-[80%] m-auto pt-4' src={logo} alt="" />
+//                     <hr className='border-1 border-gray-200 mt-2 w-full' />
+
+//                     <Link to={"/studentDashboard"}>
+//                         <button className='group flex gap-3 items-center hover:bg-[#f6f9fc] mt-5 w-[90%]  rounded-xl m-auto p-4'>
+//                             <img src={dash1} alt="" />
+//                             <span className='font-semibold text-lg text-blue-600 ml-2'>My Dashboard</span>
+//                         </button>
+//                     </Link>
+
+//                     <button className='group flex gap-3 items-center hover:bg-[#f6f9fc] mt-5 w-[90%]  rounded-xl m-auto p-4'>
+//                         <img src={dash2} alt="" />
+//                         <span className='font-semibold text-lg hover:text-blue-600 text-gray-600 ml-2'>Discover</span>
+//                     </button>
+
+//                     <button className='group flex gap-3 items-center hover:bg-[#f6f9fc] mt-5 w-[90%]  rounded-xl m-auto p-4'>
+//                         <img src={dash3} alt="" />
+//                         <span className='font-semibold text-lg hover:text-blue-600 text-gray-600 ml-2'>Profile</span>
+//                     </button>
+
+//                     <button className='group flex gap-3 items-center hover:bg-[#f6f9fc] mt-5 w-[90%]  rounded-xl m-auto p-4'>
+//                         <img src={dash4} alt="" />
+//                         <span className='font-semibold text-lg hover:text-blue-600 text-gray-600 ml-2'>Quizs</span>
+//                     </button>
+
+//                     <button className='group flex gap-3 items-center hover:bg-[#f6f9fc] mt-5 w-[90%]  rounded-xl m-auto p-4'>
+//                         <img src={dash5} alt="" />
+//                         <span className='font-semibold text-lg hover:text-blue-600 text-gray-600 ml-2'>FlashCards</span>
+//                     </button>
+
+//                     <Link to={"/studentDashboard/settings"}>
+//                     <button className='group flex gap-3 items-center hover:bg-[#f6f9fc] mt-5 w-[90%]  rounded-xl m-auto p-4'>
+//                         <img src={dash6} alt="" />
+//                         <span className='font-semibold text-lg hover:text-blue-600 text-gray-600 ml-2'>Settings</span>
+//                     </button>
+//                     </Link>
+
+//                     <button className='group flex gap-3 items-center hover:bg-[#f6f9fc] mt-12 w-[90%] rounded-xl m-auto p-4 border-1 border-gray-200 shadow-lg'>
+//                         <div className='flex items-center gap-3'>
+//                             <img className='w-[20%] rounded-full' src={userimg1} alt="" />
+//                             <div className='flex flex-col'>
+//                                 <span className='font-semibold text-lg hover:text-blue-600 text-gray-600'>Young Alaska</span>
+//                                 <p className='text-gray-500 text-sm'>alaska@gmail.com</p>
+//                             </div>
+//                         </div>
+//                     </button>
+
+
+
+//                 </div>
+
+
+//                 <div className=' w-[83%] h-[800px] overflow-y-scroll'>
+
+//                     <Outlet />
+
+//                 </div>
+
+//             </div>
+
+//         </div>
+//     )
+// }
+
+// export default StudentDashboard
